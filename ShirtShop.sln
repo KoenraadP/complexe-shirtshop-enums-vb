@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShirtShop.Cons", "ShirtShop
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShirtShop.Entities", "ShirtShop.Entities\ShirtShop.Entities.csproj", "{C8CF212B-EA6A-4F92-AD54-55C3B7AF480C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShirtShop.UI", "ShirtShop.UI\ShirtShop.UI.csproj", "{128EB507-AF74-4B8C-B0F7-F474137A3BD5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{C8CF212B-EA6A-4F92-AD54-55C3B7AF480C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8CF212B-EA6A-4F92-AD54-55C3B7AF480C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8CF212B-EA6A-4F92-AD54-55C3B7AF480C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{128EB507-AF74-4B8C-B0F7-F474137A3BD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{128EB507-AF74-4B8C-B0F7-F474137A3BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{128EB507-AF74-4B8C-B0F7-F474137A3BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{128EB507-AF74-4B8C-B0F7-F474137A3BD5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
