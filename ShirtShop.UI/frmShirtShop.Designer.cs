@@ -49,6 +49,7 @@
             // 
             // cbxFabric
             // 
+            this.cbxFabric.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxFabric.FormattingEnabled = true;
             this.cbxFabric.Location = new System.Drawing.Point(13, 40);
             this.cbxFabric.Name = "cbxFabric";
@@ -57,6 +58,7 @@
             // 
             // cbxSize
             // 
+            this.cbxSize.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxSize.FormattingEnabled = true;
             this.cbxSize.Location = new System.Drawing.Point(12, 67);
             this.cbxSize.Name = "cbxSize";
@@ -65,6 +67,7 @@
             // 
             // cbxColor
             // 
+            this.cbxColor.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxColor.FormattingEnabled = true;
             this.cbxColor.Location = new System.Drawing.Point(13, 94);
             this.cbxColor.Name = "cbxColor";
@@ -73,6 +76,7 @@
             // 
             // cbxSleeveLength
             // 
+            this.cbxSleeveLength.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxSleeveLength.FormattingEnabled = true;
             this.cbxSleeveLength.Location = new System.Drawing.Point(12, 121);
             this.cbxSleeveLength.Name = "cbxSleeveLength";
@@ -81,6 +85,7 @@
             // 
             // cbxBrand
             // 
+            this.cbxBrand.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbxBrand.FormattingEnabled = true;
             this.cbxBrand.Location = new System.Drawing.Point(13, 148);
             this.cbxBrand.Name = "cbxBrand";
@@ -112,6 +117,7 @@
             this.btnAdd.TabIndex = 8;
             this.btnAdd.Text = "Shirt toevoegen";
             this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.BtnAdd_Click);
             // 
             // lbxShirts
             // 

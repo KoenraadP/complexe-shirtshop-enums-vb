@@ -52,5 +52,23 @@ namespace ShirtShop.UI
                 cbxBrand.Items.Add(brand);
             }
         }
+
+        private void BtnAdd_Click(object sender, EventArgs e)
+        {
+            // voor de enums moet ik telkens duidelijk maken
+            // dat het geselecteerde item uit een combobox
+            // effectief van een specifiek enum type is
+            Shirt shirt = new Shirt(Guid.NewGuid(),
+                txtName.Text, (Fabric)cbxFabric.SelectedItem,
+                (Size)cbxSize.SelectedItem, (Color)cbxColor.SelectedItem,
+                (SleeveLength)cbxSleeveLength.SelectedItem,
+                (Brand)cbxBrand.SelectedItem, ckbEasyIroning.Checked,
+                Convert.ToDecimal(txtPrice.Text));
+
+            // als je de naam van de shirt in de listbox wil zien
+            // moet je uiteraard nog een override van ToString()
+            // maken in de Shirt class
+            lbxShirts.Items.Add(shirt);
+        }
     }
 }
