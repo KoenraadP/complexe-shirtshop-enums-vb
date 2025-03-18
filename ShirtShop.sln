@@ -4,6 +4,8 @@ VisualStudioVersion = 17.13.35828.75
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShirtShop.Cons", "ShirtShop.Cons\ShirtShop.Cons.csproj", "{434E77FF-2919-47DD-9DCE-C15EB0DB8223}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShirtShop.Entities", "ShirtShop.Entities\ShirtShop.Entities.csproj", "{C8CF212B-EA6A-4F92-AD54-55C3B7AF480C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,6 +16,10 @@ Global
 		{434E77FF-2919-47DD-9DCE-C15EB0DB8223}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{434E77FF-2919-47DD-9DCE-C15EB0DB8223}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{434E77FF-2919-47DD-9DCE-C15EB0DB8223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8CF212B-EA6A-4F92-AD54-55C3B7AF480C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8CF212B-EA6A-4F92-AD54-55C3B7AF480C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8CF212B-EA6A-4F92-AD54-55C3B7AF480C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8CF212B-EA6A-4F92-AD54-55C3B7AF480C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
